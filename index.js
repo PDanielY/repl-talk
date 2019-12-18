@@ -63,6 +63,7 @@ module.exports.Client = function() {
             catch (err) {
 
             }
+            /* If there is any board not on this list make sure to report at https://repltalk.jdaniels.tk/report */
             if (boardId == "challenge") {
               boardId = 16
             } else if (boardId == "ask") {
