@@ -1,7 +1,7 @@
 errors = require("./errors.js")
 nanoid = require("nanoid")
 fs = require("fs")
-client = require("socket.io-client")("https://repltalk.jdaniels.tk")
+client = require("socket.io-client")("https://repl-talk-socket.herokuapp.com")
 https = require("https")
 request = require("request")
 function start(user, pass) {

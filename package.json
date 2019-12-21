@@ -1,6 +1,6 @@
 {
   "name": "repl-talk",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Interact with the repl.it talk from a nodejs module",
   "main": "index.js",
   "scripts": {
